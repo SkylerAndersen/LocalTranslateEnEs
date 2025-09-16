@@ -1,0 +1,3 @@
+/Users/skylerandersen/Desktop/translator-wsp/translator/src/CMakeFiles/translator.dir
+/Users/skylerandersen/Desktop/translator-wsp/translator/src/CMakeFiles/edit_cache.dir
+/Users/skylerandersen/Desktop/translator-wsp/translator/src/CMakeFiles/rebuild_cache.dir

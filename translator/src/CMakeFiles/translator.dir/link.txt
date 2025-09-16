@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/translator.dir/main.cpp.o -o translator  -lctranslate2::ctranslate2 /Users/skylerandersen/Desktop/translator-wsp/translator/libs/libsentencepiece.a

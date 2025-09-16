@@ -1,0 +1,4 @@
+translator/models/ct2-en-es/model.bin filter=lfs diff=lfs merge=lfs -text
+translator/models/ct2-es-en/model.bin filter=lfs diff=lfs merge=lfs -text
+./translator/models/ct2-en-es/model.bin filter=lfs diff=lfs merge=lfs -text
+./translator/models/ct2-es-en/model.bin filter=lfs diff=lfs merge=lfs -text
