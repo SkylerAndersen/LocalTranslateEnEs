@@ -1,12 +1,10 @@
 #!/bin/bash
 # ============================================
-# Build CTranslate2 on Apple Silicon with
-# local libomp.a and headers
+# CTranslate2 Build Script for Apple Silicon
 # ============================================
+set -e
 
-set -e # Exit on first error
-
-# Define workspace paths
+# Workspace paths
 WORKSPACE="$HOME/desktop/Productivity/Code/LocalTranslateEnEs"
 CTRANSLATE2_SRC="$WORKSPACE/CTranslate2"
 CTRANSLATE2_BUILD="$CTRANSLATE2_SRC/build"
@@ -20,7 +18,7 @@ rm -rf "$CTRANSLATE2_BUILD"
 mkdir -p "$CTRANSLATE2_BUILD"
 cd "$CTRANSLATE2_BUILD"
 
-# Configure CTranslate2 with explicit OpenMP paths and compiler flags
+# Build CTranslate2, statically linking OpenMP
 cmake .. \
   -DCMAKE_INSTALL_PREFIX="$CTRANSLATE2_INSTALL" \
   -DOPENMP_RUNTIME=COMP \

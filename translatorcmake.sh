@@ -1,12 +1,10 @@
 #!/bin/bash
-# ============================================
-# Build CTranslate2 on Apple Silicon with
-# local libomp.a and headers
-# ============================================
+# =======================================
+# Translator build script Apple Silicon
+# =======================================
+set -e
 
-set -e # Exit on first error
-
-# Define workspace paths
+# Workspace paths
 WORKSPACE="$HOME/desktop/productivity/code/LocalTranslateEnEs"
 TRANSLATE_BUILD="$WORKSPACE/translator/build"
 CTRANSLATE2_INSTALL="$WORKSPACE/ctranslate2-install"
